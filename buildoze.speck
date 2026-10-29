@@ -1,0 +1,26 @@
+[app]
+# Название твоего приложения, которое будет под иконкой
+title = Ak Hasap Pro
+
+# Имя пакета (латиницей, без пробелов)
+package.name = akhasappro
+package.domain = org.akhasap
+
+# Какие файлы включать в приложение (включая базу данных)
+source.include_exts = py,png,jpg,db
+
+# Версия приложения
+version = 3.0
+
+# Что нужно для работы программы (Python и база данных SQLite)
+requirements = python3,sqlite3
+
+# Ориентация экрана (портретная / вертикальная)
+orientation = portrait
+
+# Разрешения для Android (если понадобится интернет или доступ к памяти)
+android.permissions = WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
+
+[buildozer]
+log_level = 2
+warn_on_root = 1
