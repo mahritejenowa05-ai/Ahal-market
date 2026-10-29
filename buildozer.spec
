@@ -1,0 +1,13 @@
+[app]
+title = Ak Hasap Pro
+package.name = akhasappro
+package.domain = org.akhasap
+source.include_exts = py,png,jpg,db
+version = 3.0
+requirements = python3,sqlite3
+orientation = portrait
+android.permissions = WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
+
+[buildozer]
+log_level = 2
+warn_on_root = 1
